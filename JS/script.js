@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const celcius = document.getElementById('celcius');
     const fahrenheit = document.getElementById('fahrenheit');
     const convertionCelcius = document.getElementById('convertion');
-    const reset = document.getElementById('reset');
-    const reverseCelcius = document.getElementById('reverse');
+    //const reset = document.getElementById('reset');
+    //const reverseCelcius = document.getElementById('reverse');
 
     //const celciusConvertion = ((fahrenheit/1.8)-32);
     //const fahrenheitConvertion = ((celcius*1.8)+32);
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fahrenheit.value = "Invalid input. Please enter a valid number.";
         }
     });
-    temperatureForm.addEventListener("submit", function (e) {
+    fahrenheitConvertForm.addEventListener("submit", function (e) {
         e.preventDefault();
     });
 });
