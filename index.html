@@ -3,6 +3,9 @@
     <head>
         <title> Conversi Suhu</title>
         <link rel="stylesheet" href="CSS\style.css">
+        <script type="text/javascript"
+        src="JS\script.js">
+        </script>
     </head>
     <body>
         <div>
@@ -13,15 +16,16 @@
         <form id="fahrenheitConvertForm">
             <p>Celcius (°C)</p>
             <textarea type="text" id="celcius"></textarea>
+            <br>
             <button type="button" id="convertion">Konversi</button>
             <button type="button" id="reset">Reset</button>
             <button type="button" id="reverseCelcius">Reverse</button>
             <p>Fahrenheit (°F)</p>
-            <textarea type="text" id="fahrenheit" readonly></textarea>
+            <textarea type="text" id="fahrenheit"></textarea>
             <P>Cara Kalkulasi</P>
             <textarea disabled>90°C * (9/5) + 32 = 194°F</textarea>
         </form>
-        <a>Fahrenheit ke Celcius</a>
+        <a href="reverse.html">Fahrenheit ke Celcius</a>
         <br>
         <strong>Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)</strong>
         <hr>
@@ -31,8 +35,5 @@
         <p>atau</p>
         <p><strong>𝑆</strong>(°F) = (<strong>𝑆</strong>(°C) x 1.8) + 32</p>
         </div>
-        <script type="text/javascript"
-        src="JS\script.js">
-        </script>
     </body>
 </html>
